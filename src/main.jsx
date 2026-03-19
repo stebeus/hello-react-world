@@ -8,7 +8,6 @@ import ConvertedHtmlElement from './components/ConvertedHtmlElement.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
     <Greeting />
     <Egg />
     <ConvertedHtmlElement />
