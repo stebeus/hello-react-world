@@ -41,3 +41,7 @@ h5,
 h6 {
   color: var(--color-content);
 }
+
+.super-greeting {
+  font-size: 10rem;
+}

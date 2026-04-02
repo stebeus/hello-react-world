@@ -1,7 +1,7 @@
 export function Greeting() {
   return (
-    <h2>
+    <p>
       This is a <b className="super-greeting">SUPER</b> greeting...
-    </h2>
+    </p>
   );
 }
