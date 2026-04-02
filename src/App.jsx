@@ -1,19 +1,17 @@
-import './App.css';
-import Greeting from './components/Greeting.jsx';
-import { Egg } from './components/Food.jsx';
-import ConvertedHtmlElement from './components/ConvertedHtmlElement.jsx';
-import Person from './components/Person.jsx';
+import { Egg } from './components/Egg.jsx';
+import { Greeting } from './components/Greeting.jsx';
+import { HtmlElementConvertedToJsx } from './components/HtmlElementConvertedToJsx.jsx';
+import { PersonForm } from './components/PersonForm.jsx';
 
-function App() {
+export function App() {
   return (
     <>
-      HELLO WORLD
+      <h1>Hello, React World!</h1>
+      <br />
       <Greeting />
       <Egg />
-      <ConvertedHtmlElement />
-      <Person />
+      <HtmlElementConvertedToJsx />
+      <PersonForm />
     </>
   );
 }
-
-export default App;
